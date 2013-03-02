@@ -4,7 +4,13 @@ midasgoldpatch
 mIDasGold Patch.txt File
 
 To help convert a Tekkit Classic v3.1.2 server to Tekkit Lite v0.5.7 server. 
-Tested with mIDasGold v0.2.4
+Tested with mIDasGold v0.2.4 with Additional BuildCraft Pipes Fix Plugin by Havocx42
+
+mIDasGold:
+https://code.google.com/p/midas-gold/downloads/list
+
+Invisible BuildCraft Pipes Fix (A mIDasGold Plugin):
+http://forums.technicpack.net/threads/how-to-convert-tekkit-classic-world-to-tekkit-lite.34915/page-7#post-326855
 
 I created this file because I found none of the patch.txt files linked on the forum thread to be 
 sufficiently effective. Since I am running "out-of-the-box" versions of Tekkit Classic server and 
