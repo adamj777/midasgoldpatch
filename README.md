@@ -4,7 +4,7 @@ midasgoldpatch
 mIDasGold Patch.txt File
 
 To help convert a Tekkit Classic v3.1.2 server to Tekkit Lite v0.5.7 server. 
-Tested with mIDasGold v0.2.4 with Additional BuildCraft Pipes Fix Plugin by Havocx42
+Tested with mIDasGold v0.2.4 with Additional BuildCraft Pipes Fix Plugin by havocx42
 
 mIDasGold:
 https://code.google.com/p/midas-gold/downloads/list
