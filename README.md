@@ -20,19 +20,22 @@ Where items were removed from the game, in some cases, I replaced the item with 
 utility and value. (i.e. Dark Matter Hammer becomes Diamond Hammer.) I was not thorough with this 
 so, feel free to make your own suggestions.
 
+Some items have been removed from overworld and placed in the Nether. And some new ores have been 
+added. Ferrous ore is found in the world but Lead ore drops from smelting Silver ingots. Sapphire
+and Nikolite have been restricted to the Nether. So, I translate Nikolite ore to Silver ore in 
+the Overworld and Sapphire to Ferrous ore. (More silver is needed for Factorization's Lead items. 
+Ferrous ore would otherwise not appear in the Overworld until new chunks were generated. While
+the quantities may not be accurate, this at least gives you a start from your existing world.
+
+The changes in the previous paragraph work well for my server because we had not ventured far into 
+the Nether. So, I am regenerating the whole world, which will give us access to all the new ores in 
+their appropriate proportions. If you have an extensive Nether world, the above changes may need to 
+be further tweaked. You may also want to take a closer look at all the Nether ore values between 
+Classic and Lite to see if any custom changes can be made there as well.
+
 I inserted 1:1 relationships (no change to the block ID) where I was uncertain if a change was 
 necessary and could not test. So, if you see one of these entries, it is purposeful and might be 
 a place to focus on finding a suitable replacement value.
-
-KNOWN BUGS:
-I still have not figured out how to get Buildcraft Pipes to translate. After converting, my server 
-exhibits symptoms of the infamous "invisible pipes" syndrome. I believe this is because pipes 
-employ a little more sophistication than simply adding/changing block/item IDs. I can see what is
-happening with NBT Explorer but i do not know where to address the problem. It may be something 
-that darkhoernchen can address in the mIDasGold java program but i am not a programmer by trade so 
-I couldn't say. It looks like a generic block ID is used for all pipes and then a "PipeID" field is
-used to specify the type of pipe. The IDs that are exported in the Dump file for Tekkit Lite are 
-accurate but they do not appear be block IDs. They are in the PipeID field.
 
 Hope this is useful to some of you... Enjoy!
 
